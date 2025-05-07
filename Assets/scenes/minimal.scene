@@ -325,15 +325,69 @@
               "Components": [
                 {
                   "__type": "SleepComponent",
-                  "__guid": "3943abda-cff5-4280-b422-17e5a706638b",
-                  "BoxCollider": null,
-                  "ModelRenderer": null,
+                  "__guid": "3107fe4c-9394-4fc9-bf04-3cd57c4eccdb",
+                  "BoxCollider": {
+                    "_type": "component",
+                    "component_id": "1466e6b6-5683-4ee2-a78c-97ccb5a7768b",
+                    "go": "7685af96-a05f-4aa5-a736-4bbe8f4a3e41",
+                    "component_type": "BoxCollider"
+                  },
+                  "ModelRenderer": {
+                    "_type": "component",
+                    "component_id": "5728de45-8a81-4c53-9363-79cc82d49515",
+                    "go": "7685af96-a05f-4aa5-a736-4bbe8f4a3e41",
+                    "component_type": "ModelRenderer"
+                  },
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
                   "OnComponentFixedUpdate": null,
                   "OnComponentStart": null,
                   "OnComponentUpdate": null
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "1466e6b6-5683-4ee2-a78c-97ccb5a7768b",
+                  "Center": "0,0,0",
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "Scale": "50,50,50",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                },
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "5728de45-8a81-4c53-9363-79cc82d49515",
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Model": null,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
                 }
               ],
               "Children": []
@@ -370,7 +424,74 @@
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
               "OwnerTransfer": 1,
-              "Components": [],
+              "Components": [
+                {
+                  "__type": "SleepComponent",
+                  "__guid": "9f36eee3-6998-4bd1-ae34-692c4514fc11",
+                  "BoxCollider": {
+                    "_type": "component",
+                    "component_id": "e8861741-c699-45ad-aeb9-2ff9354617f4",
+                    "go": "e8c15373-d5ff-4dd1-9c26-00fa1bd24b23",
+                    "component_type": "BoxCollider"
+                  },
+                  "ModelRenderer": {
+                    "_type": "component",
+                    "component_id": "a4bc1d5f-d176-429d-a71e-d2a66adde950",
+                    "go": "e8c15373-d5ff-4dd1-9c26-00fa1bd24b23",
+                    "component_type": "ModelRenderer"
+                  },
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "e8861741-c699-45ad-aeb9-2ff9354617f4",
+                  "Center": "0,0,0",
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "Scale": "50,50,50",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                },
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "a4bc1d5f-d176-429d-a71e-d2a66adde950",
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Model": null,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                }
+              ],
               "Children": []
             }
           ]
