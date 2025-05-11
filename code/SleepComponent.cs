@@ -7,6 +7,6 @@ public class SleepComponent : Component
 
 	protected override void OnUpdate()
 	{
-		Log.Info( GameObject.Name + " is Sleeping: " + BoxCollider.KeyframeBody.Sleeping );
+		Log.Info( GameObject.Name + " is Sleeping: " + BoxCollider.KeyframeBody.Sleeping + " - Velocity : " + BoxCollider.KeyframeBody.Velocity );
 	}
 }
